@@ -1,4 +1,5 @@
 import "./App.css";
+import CustomHookForm from "./Components/CustomHookForm/CustomHookForm";
 import RefForm from "./Components/RefForm/RefForm";
 import SimpleForm from "./Components/SimpleForm/SimpleForm";
 import StatefulForm from "./Components/StatefulForm/StatefulForm";
@@ -15,6 +16,9 @@ function App() {
 
         <h2>UseRef</h2>
         <RefForm></RefForm>
+
+        <h3>Custom hook & Custom form</h3>
+        <CustomHookForm></CustomHookForm>
       </div>
     </>
   );
