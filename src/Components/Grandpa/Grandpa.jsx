@@ -8,10 +8,13 @@ import "../Grandpa/Grandpa.css";
 
 const Grandpa = () => {
   return (
-    <div className="grandpa  flex">
-      <Dad></Dad>
-      <Uncle></Uncle>
-      <Unt></Unt>
+    <div className="grandpa ">
+      <h2>Grandpa</h2>
+      <section className="flex">
+        <Dad></Dad>
+        <Uncle></Uncle>
+        <Unt></Unt>
+      </section>
     </div>
   );
 };
