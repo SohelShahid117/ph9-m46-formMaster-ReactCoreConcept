@@ -1,5 +1,6 @@
 import "./App.css";
 import CustomHookForm from "./Components/CustomHookForm/CustomHookForm";
+import Grandpa from "./Components/Grandpa/Grandpa";
 import ReUseableForm from "./Components/ReUseableForm/ReUseableForm";
 import RefForm from "./Components/RefForm/RefForm";
 import SimpleForm from "./Components/SimpleForm/SimpleForm";
@@ -67,6 +68,8 @@ function App() {
             <p>Update your profile regularly</p>
           </div>
         </ReUseableForm>
+
+        <Grandpa></Grandpa>
       </div>
     </>
   );
